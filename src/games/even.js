@@ -8,7 +8,7 @@ export const greetings = () => {
     
   
   let score = 0;
-  let bedScore = 0
+  
   while (score < 3) {
   const randomNumber1 = getRandomNumber();
   console.log(`Question: ${randomNumber1}`);
@@ -17,23 +17,22 @@ export const greetings = () => {
     console.log('Correct!');
     score++;
   } else if (userResponse === 'yes' &&  randomNumber1 % 2 !== 0) {
-    console.log (`'no' is wrong answer ;(. Correct answer was 'yes'. Let's try again, ${userName}!`);
-    bedScore++
+    return console.log (`'no' is wrong answer ;(. Correct answer was 'yes'. Let's try again, ${userName}!`);
+    
   } else if (userResponse === 'no' &&  randomNumber1 % 2 == 0) {
     return console.log(`'no' is wrong answer ;(. Correct answer was 'yes'. Let's try again, ${userName}!`);
-    bedScore++
+    
   } else {return console.log( `Let's try again, ${userName}!`)
   };
   if (score === 3) {
     return console.log(`Congratulations, ${userName}`)
-  } else if (bedScore === 1) { 
-    return 
+  } 
 
   }
 }
    
 
-}
+
 
   export default greetings;
 
