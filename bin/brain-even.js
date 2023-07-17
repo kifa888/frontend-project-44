@@ -1,4 +1,9 @@
 #!/usr/bin/env node
-import greetings from '../src/games/even.js';
+
+import { greetings, userName, answer, gameConditionsEven, calculationEven }from '../src/index.js';
 
 greetings();
+userName();
+gameConditionsEven();
+calculationEven();
+answer ();
