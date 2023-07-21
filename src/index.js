@@ -29,4 +29,4 @@ export const calculationEven = () => {
       }
     }
 }
->>>>>>> c61541bfe20896f86bc488bf8abf959e118de8d2
+
