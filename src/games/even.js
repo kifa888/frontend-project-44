@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { getRandomNum } from './getRandomNumber.js';
+import getRandomNumber from './getRandomNumber.js';
 
 
 
@@ -10,7 +10,7 @@ const greetings = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   let score = 0;
   while (score < 3) {
-    const randomNumber = getRandomNum(1, 99);
+    const randomNumber = getRandomNumber(1, 99);
     console.log(`Question: ${randomNumber}`);
     const userResponse = readlineSync.question('Your answer: ');
     if ((userResponse === 'yes' && randomNumber % 2 === 0) || (userResponse === 'no' && randomNumber % 2 !== 0)) {
