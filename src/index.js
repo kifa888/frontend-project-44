@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 
 import readlineSync from 'readline-sync';
 import getRandomNum from './games/getRandomNumber.js';
