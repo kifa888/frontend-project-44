@@ -10,13 +10,14 @@ const greetings = () => {
     const randomNumber = getRandomNumber(1, 30);
     console.log(`Question: ${randomNumber}`);
     const userResponse = readlineSync.question('Your answer: ');
+    const correctAnswer =  randomNumber % 2 === 0 ? 'yes': 'no';
     if ((userResponse === 'yes' && randomNumber % 2 === 0) || (userResponse === 'no' && randomNumber % 2 !== 0)) {
       console.log('Correct!');
     } else if (userResponse === 'yes' && randomNumber % 2 !== 0) {
-      return console.log(`'no' is wrong answer ;(. Correct answer was '${userResponse}'.\nLet's try again, ${userName}!`);
+      return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
     } else if (userResponse === 'no' && randomNumber % 2 === 0) {
-      return console.log(`'no' is wrong answer ;(. Correct answer was '${userResponse}'.\nLet's try again, ${userName}!`);
-    } else return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was 'no'. \nLet's try again, ${userName}!`);
+      return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
+    } else return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${correctAnswer}'. \nLet's try again, ${userName}!`);
   }
 
  console.log(`Congratulations, ${userName}!`);
