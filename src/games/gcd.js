@@ -1,10 +1,7 @@
 import readlineSync from 'readline-sync';
-import getRandomNumber from './getRandomNumber.js';
-import userName from '../index.js';
-import getGCD from './nod.js';
+import { userName, rounds, getRandomNumber } from '../index.js';
+import getGCD from './nod-gcd.js';
 
-
-const rounds = 3;
 console.log('Find the greatest common divisor of given numbers.');
 
 const commonDivisors = () => {
