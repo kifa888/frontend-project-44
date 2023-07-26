@@ -1,8 +1,6 @@
 import readlineSync from 'readline-sync';
-import getRandomNumber from './getRandomNumber.js';
-import userName from '../index.js';
+import { userName, rounds, getRandomNumber } from '../index.js';
 
-const rounds = 3;
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
 const greetings = () => {
