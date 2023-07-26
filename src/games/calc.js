@@ -1,8 +1,6 @@
-import getRandomNumber from '../games/getRandomNumber.js';
 import readlineSync from 'readline-sync';
-import userName from '../index.js';
+import { userName, rounds, getRandomNumber } from '../index.js';
 
-const rounds = 3;
 console.log('What is the result of the expression?');
 
 const calculator = () => {
