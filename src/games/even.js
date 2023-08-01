@@ -3,7 +3,7 @@ import { userName, rounds, getRandomNumber } from '../index.js';
 
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-const greetings = (number) => {
+const greetings = () => {
   for (let i = 0; i < rounds; i += 1) {
     const randomNumber = getRandomNumber(1, 30);
     console.log(`Question: ${randomNumber}`);
@@ -19,7 +19,6 @@ const greetings = (number) => {
   }
 
   console.log(`Congratulations, ${userName}!`);
-  return number;
 };
 
 export default greetings;
