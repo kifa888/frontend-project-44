@@ -6,4 +6,4 @@ console.log(`Hello, ${userName}!`);
 const rounds = 3;
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
-export {userName, rounds, getRandomNumber };
+export { userName, rounds, getRandomNumber };
