@@ -14,7 +14,7 @@ const commonDivisors = (number) => {
     if (userResponse === String(result)) {
       console.log('Correct!');
     } else {
-      return console.log(`${userResponse} is wrong answer ;(. Correct answer was ${result}.\nLet's try again, ${userName}!`);
+      return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${result}'.\nLet's try again, ${userName}!`);
     }
   }
   console.log(`Congratulations, ${userName}!`);
