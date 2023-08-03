@@ -24,7 +24,7 @@ const calculator = () => {
     if (userResponse === getCalculationSigns) {
       console.log('Correct!');
     } else {
-      console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${getCalculationSigns}'.\nLet's try again, ${userName}`);
+      console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${getCalculationSigns}'.\nLet's try again, ${userName}!`);
       return;
     }
   }
