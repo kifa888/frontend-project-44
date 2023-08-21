@@ -19,37 +19,44 @@ make install
 npm install
 npm link
 </code>
-
-
+<ol>
+<h2><li>Проверка на чётность</li></h2>
 <h4>Запуск игры:</h4>
 <code>brain-even</code>
 
 
-<h5>Презентация:</h5>
+<h4>Презентация:</h4>
 <a href="https://asciinema.org/a/2pnXELT90ieUsZTShmwBBymSs" target="_blank"><img src="https://asciinema.org/a/2pnXELT90ieUsZTShmwBBymSs.svg" /></a>
+
+<h2><li>Калькулятор</li></h2>
 
 <h4>Запуск игры:</h4>
 <code>brain-calc</code>
 
-<h5>Презентация:<h5>
+<h4>Презентация:<h4>
 <a href="https://asciinema.org/a/yk3B0vW1ACmNTBzTbb0wu1AV1" target="_blank"><img src="https://asciinema.org/a/yk3B0vW1ACmNTBzTbb0wu1AV1.svg" /></a>
 
+<h2><li>Наибольший общий делитель</li></h2>
 
 <h4>Запуск игры:</h4>
 <code>brain-gcd</code>
 
-<h5>Презентация:</h5>
+<h4>Презентация:</h4>
 <a href="https://asciinema.org/a/HNUSHmsejwDmge8NJqNaJXl20" target="_blank"><img src="https://asciinema.org/a/HNUSHmsejwDmge8NJqNaJXl20.svg" /></a>
 
+<h2><li>Арифметическая прогрессия</li></h2>
 
 <h4>Запуск игры:</h4>
 <code>brain-gcd</code>
 
-<h5>Презентация:</h5>
+<h4>Презентация:</h4>
 <a href="https://asciinema.org/a/HApgodzc0Xc6jQLivWKqg5mp3" target="_blank"><img src="https://asciinema.org/a/HApgodzc0Xc6jQLivWKqg5mp3.svg" /></a>
+
+<h2><li>Простое ли число?</li></h2>
+</ol>
 
 <h4>Запуск игры:</h4>
 <code>brain-prime</code>
 
-<h5>Презентация:</h5>
+<h4>Презентация:</h4>
 <a href="https://asciinema.org/a/TdgbJllUDeFZbOvthhoT29WH6" target="_blank"><img src="https://asciinema.org/a/TdgbJllUDeFZbOvthhoT29WH6.svg" /></a>
