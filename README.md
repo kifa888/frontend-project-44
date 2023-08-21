@@ -53,10 +53,11 @@ npm link
 <a href="https://asciinema.org/a/HApgodzc0Xc6jQLivWKqg5mp3" target="_blank"><img src="https://asciinema.org/a/HApgodzc0Xc6jQLivWKqg5mp3.svg" /></a>
 
 <h2><li>Простое ли число?</li></h2>
-</ol>
+
 
 <h4>Запуск игры:</h4>
 <code>brain-prime</code>
 
 <h4>Презентация:</h4>
 <a href="https://asciinema.org/a/TdgbJllUDeFZbOvthhoT29WH6" target="_blank"><img src="https://asciinema.org/a/TdgbJllUDeFZbOvthhoT29WH6.svg" /></a>
+</ol>
