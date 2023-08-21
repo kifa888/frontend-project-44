@@ -11,11 +11,12 @@
 5. Простое ли число?
 
 #### Установка:
-`git clone https://github.com/kifa888/frontend-project-44`
-`cd frontend-project-44`
-`make install`
-`npm install`
-`npm link`
+```git clone https://github.com/kifa888/frontend-project-44
+cd frontend-project-44
+make install
+npm install
+npm link```
+
 
 ##### Запуск игры:
 `brin-even`
