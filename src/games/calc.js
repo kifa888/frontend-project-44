@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
-import { userName, rounds, correctAnswer} from '../index.js';
-import getRandomNumber  from '../tools/getRandomNumber.js';
+import { userName, rounds, correctAnswer } from '../index.js';
+import getRandomNumber from '../tools/getRandomNumber.js';
 
 console.log('What is the result of the expression?');
 

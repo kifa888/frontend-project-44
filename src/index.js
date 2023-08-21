@@ -6,5 +6,4 @@ console.log(`Hello, ${userName}!`);
 const rounds = 3;
 const correctAnswer = 'Correct!';
 
-
-export { userName, rounds, correctAnswer};
+export { userGreetingInTheGame, userName, rounds, correctAnswer };

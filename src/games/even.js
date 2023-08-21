@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 import { userName, rounds, correctAnswer } from '../index.js';
-import getRandomNumber  from '../tools/getRandomNumber.js';
+import getRandomNumber from '../tools/getRandomNumber.js';
 
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 

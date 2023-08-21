@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import { userName, rounds, correctAnswer } from '../index.js';
 import isPrime from '../tools/prime-function.js';
-import getRandomNumber  from '../tools/getRandomNumber.js';
+import getRandomNumber from '../tools/getRandomNumber.js';
 
 console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
