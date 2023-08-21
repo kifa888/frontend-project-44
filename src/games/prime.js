@@ -17,7 +17,7 @@ const runPrimeGame = (number) => {
     } else if (primeNumber === false) {
       answer = 'no';
     }
-    if (userResponse === correctAnswer) {
+    if (userResponse === answer) {
       console.log(correctAnswer);
     } else return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${userName}!`);
   }
