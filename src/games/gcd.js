@@ -1,10 +1,11 @@
 import readlineSync from 'readline-sync';
-import { userName, rounds, getRandomNumber } from '../index.js';
-import getGCD from './nod-gcd.js';
+import { userName, rounds } from '../index.js';
+import getGCD from '../tools/nod-gcd.js';
+import getRandomNumber  from '../tools/getRandomNumber.js';
 
 console.log('Find the greatest common divisor of given numbers.');
 
-const commonDivisors = (number) => {
+const runCommonDivisors = (number) => {
   for (let i = 0; i < rounds; i += 1) {
     const number1 = getRandomNumber(1, 100);
     const number2 = getRandomNumber(1, 100);
@@ -12,7 +13,7 @@ const commonDivisors = (number) => {
     const result = getGCD(number1, number2);
     const userResponse = readlineSync.question('Your answer: ');
     if (userResponse === String(result)) {
-      console.log('Correct!');
+      console.log(correctAnswer);
     } else {
       return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${result}'.\nLet's try again, ${userName}!`);
     }
@@ -21,4 +22,4 @@ const commonDivisors = (number) => {
   return number;
 };
 
-export default commonDivisors;
+export default runCommonDivisors;

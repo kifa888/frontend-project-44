@@ -1,8 +1,9 @@
 import readlineSync from 'readline-sync';
-import { userName, rounds, getRandomNumber } from '../index.js';
+import { userName, rounds, correctAnswer } from '../index.js';
+import getRandomNumber  from '../tools/getRandomNumber.js';
 
 console.log('What number is missing in the progression?');
-const determiningNumber = (number) => {
+const runDeterminingNumber = (number) => {
   for (let i = 0; i < rounds; i += 1) {
     const firstNumber = getRandomNumber(1, 30);
     const step = getRandomNumber(1, 10);
@@ -21,11 +22,11 @@ const determiningNumber = (number) => {
     console.log(`Question: ${str}`);
     const userResponse = readlineSync.question('Your answer: ');
     if (userResponse === numberToString) {
-      console.log('Correct!');
+      console.log(correctAnswer);
     } else return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${getArrayIndex}'.\nLet's try again, ${userName}!`);
   }
   console.log(`Congratulations, ${userName}!`);
   return number;
 };
 
-export default determiningNumber;
+export default runDeterminingNumber;

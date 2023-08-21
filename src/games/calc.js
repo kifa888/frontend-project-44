@@ -1,9 +1,10 @@
 import readlineSync from 'readline-sync';
-import { userName, rounds, getRandomNumber } from '../index.js';
+import { userName, rounds, correctAnswer} from '../index.js';
+import getRandomNumber  from '../tools/getRandomNumber.js';
 
 console.log('What is the result of the expression?');
 
-const calculator = () => {
+const runCalculator = () => {
   for (let i = 0; i < rounds; i += 1) {
     const operations = ['+', '-', '*'];
     const getRandomOperations = operations[Math.floor(Math.random() * operations.length)];
@@ -22,7 +23,7 @@ const calculator = () => {
     }
 
     if (userResponse === getCalculationSigns) {
-      console.log('Correct!');
+      console.log(correctAnswer);
     } else {
       console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${getCalculationSigns}'.\nLet's try again, ${userName}!`);
       return;
@@ -31,4 +32,4 @@ const calculator = () => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default calculator;
+export default runCalculator;

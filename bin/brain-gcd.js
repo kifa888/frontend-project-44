@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import commonDivisors from '../src/games/gcd.js';
+import runCommonDivisors from '../src/games/gcd.js';
 
-commonDivisors();
+runCommonDivisors();

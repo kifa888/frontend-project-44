@@ -1,25 +1,26 @@
 import readlineSync from 'readline-sync';
-import { userName, rounds, getRandomNumber } from '../index.js';
+import { userName, rounds, correctAnswer } from '../index.js';
+import getRandomNumber  from '../tools/getRandomNumber.js';
 
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-const greetings = (number) => {
+const runParityCheck = (number) => {
   for (let i = 0; i < rounds; i += 1) {
     const randomNumber = getRandomNumber(1, 30);
     console.log(`Question: ${randomNumber}`);
     const userResponse = readlineSync.question('Your answer: ');
-    const correctAnswer = randomNumber % 2 === 0 ? 'yes' : 'no';
+    const answer = randomNumber % 2 === 0 ? 'yes' : 'no';
     if ((userResponse === 'yes' && randomNumber % 2 === 0) || (userResponse === 'no' && randomNumber % 2 !== 0)) {
-      console.log('Correct!');
+      console.log(correctAnswer);
     } else if (userResponse === 'yes' && randomNumber % 2 !== 0) {
-      return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
+      return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${userName}!`);
     } else if (userResponse === 'no' && randomNumber % 2 === 0) {
-      return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);
-    } else return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${correctAnswer}'. \nLet's try again, ${userName}!`);
+      return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${userName}!`);
+    } else return console.log(`'${userResponse}' is wrong answer ;(. Correct answer was '${answer}'. \nLet's try again, ${userName}!`);
   }
 
   console.log(`Congratulations, ${userName}!`);
   return number;
 };
 
-export default greetings;
+export default runParityCheck;

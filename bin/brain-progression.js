@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import determiningNumber from '../src/games/progression.js';
+import runDeterminingNumber from '../src/games/progression.js';
 
-determiningNumber();
+runDeterminingNumber();
