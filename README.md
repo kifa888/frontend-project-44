@@ -13,11 +13,13 @@
 </ol>
 
 <h3>Установка:</h3>
-`git clone https://github.com/kifa888/frontend-project-44`
-`cd frontend-project-44`
+<code>
+git clone https://github.com/kifa888/frontend-project-44
+cd frontend-project-44
 make install
 npm install
-npm link 
+npm link
+</code>
 
 
 <h4>Запуск игры:</h4>
