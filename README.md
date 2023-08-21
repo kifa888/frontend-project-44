@@ -13,8 +13,7 @@
 </ol>
 
 <h3>Установка:</h3>
-<code>
-git clone https://github.com/kifa888/frontend-project-44
+<code>git clone https://github.com/kifa888/frontend-project-44
 cd frontend-project-44
 make install
 npm install
@@ -23,34 +22,34 @@ npm link
 
 
 <h4>Запуск игры:</h4>
-brain-even
+<code>brain-even</code>
 
 
 <h5>Презентация:</h5>
 <a href="https://asciinema.org/a/2pnXELT90ieUsZTShmwBBymSs" target="_blank"><img src="https://asciinema.org/a/2pnXELT90ieUsZTShmwBBymSs.svg" /></a>
 
 <h4>Запуск игры:</h4>
-`brain-calc`
+<code>brain-calc</code>
 
 <h5>Презентация:<h5>
 <a href="https://asciinema.org/a/yk3B0vW1ACmNTBzTbb0wu1AV1" target="_blank"><img src="https://asciinema.org/a/yk3B0vW1ACmNTBzTbb0wu1AV1.svg" /></a>
 
 
 <h4>Запуск игры:</h4>
-`brain-gcd`
+<code>brain-gcd</code>
 
 <h5>Презентация:</h5>
 <a href="https://asciinema.org/a/HNUSHmsejwDmge8NJqNaJXl20" target="_blank"><img src="https://asciinema.org/a/HNUSHmsejwDmge8NJqNaJXl20.svg" /></a>
 
 
 <h4>Запуск игры:</h4>
-`brain-gcd`
+<code>brain-gcd</code>
 
 <h5>Презентация:</h5>
 <a href="https://asciinema.org/a/HApgodzc0Xc6jQLivWKqg5mp3" target="_blank"><img src="https://asciinema.org/a/HApgodzc0Xc6jQLivWKqg5mp3.svg" /></a>
 
 <h4>Запуск игры:</h4>
-`brain-prime`
+<code>brain-prime</code>
 
 <h5>Презентация:</h5>
 <a href="https://asciinema.org/a/TdgbJllUDeFZbOvthhoT29WH6" target="_blank"><img src="https://asciinema.org/a/TdgbJllUDeFZbOvthhoT29WH6.svg" /></a>
